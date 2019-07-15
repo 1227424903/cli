@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-$ npm install -g @xiaomu/cra
+$ npm install -g @yangmu/cra-cli
 ```
 
 ## 使用
@@ -34,4 +34,3 @@ $ cra create Table -d
 # 或创建深层木偶组件
 $ cra create Table/TableRow -d
 ```
->>>>>>> init

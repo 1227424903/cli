@@ -1,6 +1,6 @@
 {
-  "name": "cra-cli",
-  "version": "1.0.0",
+  "name": "@yangmu/cra-cli",
+  "version": "1.0.3",
   "description": "cli react",
   "bin": {
     "cra": "bin/cra.js"
@@ -16,7 +16,7 @@
   "config": {
     "node": ">=8.9"
   },
-  "author": "xiaomu",
+  "author": "yangmu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/1227424903/cli/issues"
