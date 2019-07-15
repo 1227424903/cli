@@ -1,6 +1,6 @@
 {
   "name": "@yangmu/cra-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli react",
   "bin": {
     "cra": "bin/cra.js"

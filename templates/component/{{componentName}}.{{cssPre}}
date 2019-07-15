@@ -1,0 +1,14 @@
+{{#with scss}}
+.wrap {
+  
+}
+{{/with}}
+{{#with less}}
+.wrap {
+  
+}
+{{/with}}
+{{#with styl}}
+.wrap
+  color: #DC143C
+{{/with}}
