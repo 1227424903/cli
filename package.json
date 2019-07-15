@@ -1,0 +1,42 @@
+{
+  "name": "cra-cli",
+  "version": "1.0.0",
+  "description": "cli react",
+  "bin": {
+    "cra": "bin/cra.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1227424903/cli.git"
+  },
+  "keywords": [
+    "react",
+    "cli"
+  ],
+  "config": {
+    "node": ">=8.9"
+  },
+  "author": "xiaomu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1227424903/cli/issues"
+  },
+  "homepage": "https://github.com/1227424903/cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "~2.4.2",
+    "commander": "~2.20.0",
+    "download-git-repo": "~2.0.0",
+    "fs-extra": "~8.1.0",
+    "glob": "~7.1.4",
+    "handlebars": "~4.1.2",
+    "inquirer": "~6.5.0",
+    "metalsmith": "~2.3.0",
+    "ora": "~3.4.0",
+    "request": "~2.88.0",
+    "rimraf": "~2.6.3",
+    "semver": "~6.2.0"
+  }
+}
