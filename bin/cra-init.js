@@ -17,14 +17,14 @@ if (!projectName) {
 //     main()
 //   })
 
-const generateProjectName = require('../lib/generateProjectName')
+const generateProjectName = require('../lib/generateProject')
 const download = require('../lib/download')
 const generator = require('../lib/generateTemplate')
 const install = require('../lib/install')
 const end = require('../lib/end')
 const inquirer = require('../lib/inquirer')
 
-function main() {
+const main = async () => {
 
     const projectData = await generateProjectName(projectName)
 
@@ -40,7 +40,7 @@ function main() {
         ...downData
     })
 
-    await install(projectRoot)
+    //await install(projectRoot)
 
     end(projectRoot)
 }
